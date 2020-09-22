@@ -1,13 +1,15 @@
 #include <iostream>
 #include <vector>
 
-// test commit
 
+// commit
+// Another commit test
+// test commit
 /* String functions section */
 //jack was here
 // Splits a single string on separator into a vector of strings
 std::vector<std::string> Split(std::string whole, std::string separator);
-std::cout << "I just added this comment please read it and tell me if you see it :)" << std::endl;
+// std::cout << "I just added this comment please read it and tell me if you see it :)" << std::endl;
 
 // takes two strings and returns a new string tat is the result of removing all occurrences of s2 from s1.
 std::string RemoveAllSubstrings(std::string s1, std::string s2);
@@ -98,7 +100,7 @@ std::vector<bool> LessMask(std::vector<int> nums, int less_than);
 double Sum(std::vector<double> nums){
   double sum = 0.0;
   for(int i = 0;i < nums.size();i++){
-      sum += nums[i]
+      sum += nums[i];
   }
   return sum;
 }
@@ -127,7 +129,7 @@ double Sign(double num);
 
 
 // adds n to each element of the vector
-std::vector<int> AddN(std::vector<int>, int n){
+std::vector<int> AddN(std::vector<int> v, int n){
 	for(int i=0;i<(int)v.size();i++){
 		v[i]+=n;
 	}
