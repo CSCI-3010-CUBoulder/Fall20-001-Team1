@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+// commit
 /* String functions section */
 //jack was here
 // Splits a single string on separator into a vector of strings
