@@ -2,6 +2,7 @@
 #include "catch.hpp"
 #include "functions_to_implement.cpp"
 #include <vector>
+using namespace std;
 
 TEST_CASE ( "Factorials are computed", "[factorial]") {
   REQUIRE( Factorial(0) == 1 );
@@ -10,7 +11,18 @@ TEST_CASE ( "Factorials are computed", "[factorial]") {
   REQUIRE( Factorial(3) == 6 );
   REQUIRE( Factorial(10) == 3628800 );
 }
-
+TES_CASE ("Sum function test", "[Sum]"){
+  double<vector> nums = {1,2,3,4,5}//15
+  REQUIRE( Sum(nums) == 15)
+  double<vector> nums_1 = {2,3,4,5,6}//20
+  REQUIRE( Sum(nums_1 == 20) 
+}
+TES_CASE ("Sum function test", "[Product]"){
+  double<vector> nums = {1,2,3,4,5}//15
+  REQUIRE( Product(nums) == 120)
+  double<vector> nums_1 = {2,3,4,5,6}//20
+  REQUIRE( Product(nums_1 == 720)
+}
 TEST_CASE("incrementing values in integer vector", "[addN]"){
 	std::vector<int> v{1,2,3,5,6,7,8,10};
 
