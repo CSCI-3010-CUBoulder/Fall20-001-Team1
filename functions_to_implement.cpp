@@ -126,7 +126,7 @@ double Sign(double num);
 
 
 // adds n to each element of the vector
-std::vector<int> AddN(std::vector<int>, int n){
+std::vector<int> AddN(std::vector<int> v, int n){
 	for(int i=0;i<(int)v.size();i++){
 		v[i]+=n;
 	}
