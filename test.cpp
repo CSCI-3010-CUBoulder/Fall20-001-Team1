@@ -2,7 +2,7 @@
 #include "catch.hpp"
 #include "functions_to_implement.cpp"
 #include <vector>
-
+using namespace std;
 
 // adding commit
 TEST_CASE ("Sum function test", "[Sum]"){
