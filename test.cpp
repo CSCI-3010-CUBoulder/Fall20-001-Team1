@@ -3,10 +3,10 @@
 #include "functions_to_implement.cpp"
 #include <vector>
 
-TEST_CASE ("Sum function test", "[Product]"){
-  double<vector> nums = {1,2,3,4,5};//15
+TEST_CASE("Sum function test", "[Product]"){
+  std::vector<double> nums = {1,2,3,4,5};//15
   REQUIRE( Product(nums) == 120);
-  double<vector> nums_1 = {2,3,4,5,6};//20
+  std::vector<double> nums_1 = {2,3,4,5,6};//20
   REQUIRE( Product(nums_1) == 720);
 }
 // adding commit
