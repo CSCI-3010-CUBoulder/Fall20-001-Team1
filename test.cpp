@@ -6,7 +6,7 @@ using namespace std;
 
 // adding commit
 TEST_CASE ("Sum function test", "[Sum]"){
-  double<vector> nums = {1.0,2.0,3.0,4.0,5.0};//15
+  vector<double> nums = {1.0,2.0,3.0,4.0,5.0};//15
   REQUIRE( Sum(nums) == 15.0);
 }
 
